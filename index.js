@@ -21,6 +21,7 @@ app.use(
 )
 
 app.get('/users',db.getUsers)
+app.get('/tasks',db.getTasks)
 
 
 app.listen(port, () => {
